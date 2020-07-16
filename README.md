@@ -1,12 +1,12 @@
 # terraform-multi-env
 
-Deploying Multiple Environments with Terraform
+# Deploying Multiple Environments with Terraform
 
 https://medium.com/capital-one-tech/deploying-multiple-environments-with-terraform-kubernetes-7b7f389e622
 
-Testing the idea above
+Testing the idea from Chris Pisano. See the link above.
 
-# create  terraform workspaces
+## Create  the Terraform Workspaces
 
 ```
 terraform init
@@ -28,5 +28,5 @@ terraform apply
 # switch to workspace
 terraform workspace select prod
 terraform apply
-
+```
 
