@@ -6,7 +6,7 @@ locals {
 }
 
 module "variables" {
-  source = "./modules/project/config/variables"
+  source = "./project/config/variables"
   environment = "${local.environment}"
   size        = "${local.size}"
 }
